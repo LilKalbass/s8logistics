@@ -7,7 +7,9 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import dynamic from 'next/dynamic'
 
+const Map = dynamic(() => import("@/components/Contact"), { ssr: false });
 export default function Home() {
   return (
       <main className = 'w-full max-w-[1440px] bg-white mx-auto overflow-hidden'>
