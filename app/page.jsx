@@ -1,10 +1,24 @@
 import Image from "next/image";
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import ContactForm from "@/components/ContactForm";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Testimonials from "@/components/Testimonials";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
       <main className = 'w-full max-w-[1440px] bg-white mx-auto overflow-hidden'>
-          <Header/>
+          {/*<Header/>*/}
+          <Hero/>
+          <Services/>
+          <ContactForm/>
+          <About/>
+          <Contact/>
+          <Testimonials/>
+          <Footer/>
       </main>
   );
 }
