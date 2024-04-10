@@ -25,11 +25,9 @@ const Header = () => {
                             fixed top-0 w-full z-50 left-0 right-0 transition-all duration-200 rounded-b-3xl`}>
     <div className = 'container mx-auto'>
         <div className = 'flex items-center justify-between'>
-            <div>
                 <Link href='/'>
-                    <Image src = '/assets/Logo/Logo.png' alt = 'logo_img' width={180} height={50}/>
+                    <Image src = '/assets/Logo/Logo1.png' alt = 'logo_img' width={180} height={40}/>
                 </Link>
-            </div>
             <Nav containerStyles='hidden xl:flex gap-x-10 cursor-pointer'
                  linkStyles='capitalize text-lg hover:scale-110 hover:underline decoration-green decoration-[2px] underline-offset-4 hover:text-green'
             />

@@ -21,14 +21,14 @@ const Hero = () => {
                             variant= 'default'
                             size= 'md'
                         >Зв'язатися</Button>
-                        <div className = 'hidden xl:flex xl:absolute xl:top-[200px] xl:right-0'>
-                            <Image src='/assets/Hero.png' alt='hero_img' width={500} height={200}/>
+                        <div className = 'hidden xl:flex xl:absolute xl:top-[310px] xl:right-0 blur-[1px]'>
+                            <Image src='/assets/HeroImg.jpg' alt='hero_img' width={500} height={200} className='rounded-tl-3xl rounded-bl-3xl'/>
                         </div>
                     </div>
                 </div>
             </div>
             <div className = 'hidden xl:flex xl:relative xl:-top-36'>
-                <Image src='/assets/Hero.png' alt='hero_img' width={500} height={200}/>
+                <Image src='/assets/HeroImg5.jpg' alt='hero_img' width={500} height={200} className= 'rounded-3xl rounded-tl-none'/>
             </div>
         </section>
     )

@@ -35,7 +35,7 @@ const About = () => {
                 whileInView = {'show'}
                 viewport = {{once: false, amount: 0.2}}
             >
-                <Image src = '/assets/About.png' alt = 'ab' width = {705} height = {771} className = 'hidden xl:flex'/>
+                <Image src = '/assets/About.png' alt = 'ab' width = {705} height = {771} className = 'hidden xl:flex rounded-b-3xl'/>
             </motion.div>
         </section>
     )

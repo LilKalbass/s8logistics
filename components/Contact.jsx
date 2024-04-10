@@ -45,7 +45,7 @@ const Contact = () => {
             //xl:after:w-full xl:after:h-[240px] xl:after:bg-gradient-to-b xl:after:from-white xl:after:via-white/80
             //                         xl:after:to-white/20 xl:after:absolute xl:after:top-0 xl:after:z-20
         >
-            <div className= 'xl:grid xl:grid-cols-3 xl:px-4 px-4'>
+            <div className= 'xl:grid xl:grid-cols-3 px-2 xl:px-0'>
                 <div className = 'flex flex-col py-10'>
                     <h1 className= 'pl-8 mb-10'>Контакти<span className = 'text-green'>:</span></h1>
                     <div className= 'xl:py-4 py-2 flex flex-row items-center'>
@@ -67,7 +67,7 @@ const Contact = () => {
                 <MapContainer
                     center = {[46.47960683091236, 30.73817966394077]}
                     zoom = {isMobile ? 10 : 12}
-                    className = {`${isMobile ? 'h-[300px]' : 'h-[600px]'} z-10 col-span-2 xl:rounded-none rounded-3xl`}
+                    className = {`${isMobile ? 'h-[300px]' : 'h-[600px]'} z-10 col-span-2  rounded-3xl`}
                     zoomControl = {false}
                 >
                     <TileLayer

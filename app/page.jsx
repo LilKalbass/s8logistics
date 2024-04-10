@@ -9,7 +9,7 @@ import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import dynamic from 'next/dynamic'
 
-const Map = dynamic(() => import("@/components/Contact"), { ssr: false });
+const Contacts = dynamic(() => import("@/components/Contact"), { ssr: false });
 export default function Home() {
   return (
       <main className = 'w-full max-w-[1440px] bg-white mx-auto overflow-hidden'>
@@ -18,7 +18,7 @@ export default function Home() {
           <Services/>
           <ContactForm/>
           <About/>
-          <Map/>
+          <Contacts/>
           <Testimonials/>
           <Footer/>
       </main>

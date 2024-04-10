@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from 'react'
+import {ArrowRight} from 'lucide-react'
 
 const services = [
     {
@@ -29,13 +30,17 @@ const services = [
 
 const Services = () => {
     return (
-        <section className = 'relative py-0 xl:py-24 bg-service' id = 'services'>
+        <section className = 'relative py-4 xl:py-24 bg-service' id = 'services'>
             <div className = 'container mx-auto'>
-                <div className= 'max-w-[570px] mx-auto text-center '>
-                    <h2 className = 'mb-2'>Наші Послуги</h2>
-                    <p className= 'py-2 mb-8'>
+                <div className= 'max-w-[570px] mx-auto'>
+                    <h2 className = 'mb-2 text-center'>Наші Послуги</h2>
+                    <p className= 'py-2'>
                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus consectetur eius eligendi exercitationem explicabo facilis fugiat ipsam, iusto molestias, nostrum numquam pariatur perferendis perspiciatis quia recusandae soluta tempore velit.</span>
                     </p>
+                    <Link href = '/' className = 'text-green flex justufy-center xl:justify-end items-center mb-8 hover:scale-105'>
+                        View all
+                        <ArrowRight className = 'text-3xl'/>
+                    </Link>
                 </div>
                 <div className= 'grid grid-cols-1 gap-x-[30px] md:grid-cols-3 md:gap-[15px] xl:grid-cols-4'>
                     {services.map((item, index) => {
