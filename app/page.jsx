@@ -18,7 +18,7 @@ export default function Home() {
           <Services/>
           <ContactForm/>
           <About/>
-          <Contact/>
+          <Map/>
           <Testimonials/>
           <Footer/>
       </main>
