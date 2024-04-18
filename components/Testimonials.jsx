@@ -49,7 +49,7 @@ const Testimonials = () => {
                                 initial = 'hidden'
                                 whileInView = {'show'}
                                 viewport = {{once: false, amount: 0.2}} className = "lg:w-[30%] py-4">
-                        <h1 className= 'text-green'>Відгуки</h1>
+                        <h1 className= 'text-green pl-8 xl:pl-0'>Відгуки</h1>
                         <h2 className = "h2 mb-6 text-black pt-12 text-center">Наші Задоволені Клієнти<span className = 'text-green'>:</span></h2>
                     </motion.div>
                     <motion.div             variants = {fadeIn('up', 0.2)}

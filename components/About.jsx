@@ -5,6 +5,7 @@ import Image from "next/image";
 import {motion} from "framer-motion";
 import {fadeIn} from "@/variants";
 import {Button} from "@/components/ui/button";
+import Link from "next/link";
 
 const About = () => {
     return (
@@ -27,7 +28,7 @@ const About = () => {
                     Nisi, eu ut ultricies enim enim amet porttitor. Volutpat ac tellus volutpat eget volutpat orci enim, ut a.
                     Turpis adipiscing eleifend dignissim viverra euismod ultrices.
                 </p>
-                <Button className= 'rounded-3xl'>Детальніше</Button>
+                <Link href='/about'><Button className= 'rounded-3xl'>Детальніше</Button></Link>
             </motion.div>
             <motion.div
                 variants = {fadeIn('left', 0.4)}

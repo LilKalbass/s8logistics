@@ -36,7 +36,7 @@ module.exports = {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
       },
       backgroundImage: {
-        hero: 'url(/assets/HeroImg2.jpg)',
+        hero: 'url(/assets/HeroBg1.jpg)',
         service: 'url(/assets/ServBg.png)',
         contactForm: 'url(/assets/PhoneCallBg.png)',
         footer: 'url(/assets/Footer2.png)',

@@ -26,10 +26,10 @@ const ContactForm = () => {
         emailjs.sendForm('service_9kre3ur', 'template_87l8sk6',
             form.current, 'ZQx1FI4l3teXxInzT')
             .then((result) => {
-                setEmailMesg('Your email was successfully sent')
+                setEmailMesg('Емейл відправленно')
                 setEmailColor('green')
             }, (error) => {
-                setEmailMesg('Your email wasn`t sent')
+                setEmailMesg('Емейл не був відправлений')
                 setEmailColor('red')
             });
         e.target.reset();
@@ -51,38 +51,38 @@ const ContactForm = () => {
                         ref={form}
                         onSubmit={(e) => sendEmail(e)}>
                         <input
-                            className = "form-control"
+                            className = "text-green"
                             placeholder = "Ім'я/Компанія"
                             type = "text"
                             name = "_firstname"
                             required
                         />
                         <input
-                            className = "form-control"
+                            className = "text-green"
                             placeholder = "@Email"
                             type = "email"
                             name = "_email"
                             required
                         />
                         <input
-                            className = "form-control"
+                            className = "text-green"
                             placeholder = "Телефон"
                             type = "text"
                             name= "_lastname"
                             required
                         />
                         <input
-                            className = "form-control"
+                            className = "text-green placeholder-green"
                             placeholder = "Тема"
                             type = "text"
                             name= "_topic"
                         />
                         <textarea
-                            className = "form-control py-3 min-h-[180px] resize-none"
+                            className = "text-grey py-3 min-h-[180px] resize-none"
                             placeholder = "Текст повідомлення"
                             name = "_message"
                         />
-                        <button className = "btn btn-lg btn-orange" type = "submit">Відправити</button>
+                        <button className = "text-secondary rounded-full bg-body p-4 flex justify-center font-bold" type = "submit">Відправити</button>
                         <p className = "text-center" style={{color: emailColor}}>{emailMesg}</p>
                     </form>
                 </div>

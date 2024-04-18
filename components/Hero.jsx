@@ -3,6 +3,7 @@
 import React from 'react'
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
+import {Link as ScrollLink} from "react-scroll"
 
 
 const Hero = () => {
@@ -16,19 +17,21 @@ const Hero = () => {
                             Авіа та Авто доставка, морськи перевезення, доставимо зі Сполучених Штатів Америки, Європи, Турції та Китаю.
                             Допомогаємо з митним оформленням, FLC/TLC <br/>Дотримуємося Максимально продуманого підходу до кожного клієнта, щоб швидко та надійно надавати послуги з митного оформлення, логістики
                         </p>
-                        <Button
-                            className=''
-                            variant= 'default'
-                            size= 'md'
-                        >Зв'язатися</Button>
-                        <div className = 'hidden xl:flex xl:absolute xl:top-[310px] xl:right-0 blur-[1px]'>
-                            <Image src='/assets/HeroImg.jpg' alt='hero_img' width={500} height={200} className='rounded-tl-3xl rounded-bl-3xl'/>
+                        <ScrollLink to = 'reservation' smooth = {true}>
+                            <Button
+                                variant= 'default'
+                                size= 'md'
+                            >Зв'язатися
+                            </Button>
+                        </ScrollLink>
+                        <div className = 'hidden xl:flex xl:absolute xl:top-[432px] rotate-12 xl:right-[-32px]'>
+                            <Image src='/assets/HeroImgRightMid1.png' alt='hero_img' width={500} height={200} className='rounded-tl-3xl rounded-bl-3xl'/>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className = 'hidden xl:flex xl:relative xl:-top-36'>
-                <Image src='/assets/HeroImg5.jpg' alt='hero_img' width={500} height={200} className= 'rounded-3xl rounded-tl-none'/>
+            <div className = 'hidden xl:flex xl:relative xl:-top-40 left-[-4px]'>
+                <Image src='/assets/HeroImgLeftBotQQ.png' alt='hero_img' width={500} height={200} className= 'rounded-3xl rounded-tl-none'/>
             </div>
         </section>
     )

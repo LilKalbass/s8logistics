@@ -1,11 +1,11 @@
 'use client'
 
 import React from 'react'
-import {Link} from 'react-scroll'
+import Link from 'next/link'
 
 const links = [
     {
-        path: 'home',
+        path: '/',
         name: 'Головна',
     },
     {
@@ -19,14 +19,14 @@ const links = [
         offset: -150
     },
     {
-        path: 'about',
+        path: '/about',
         name: 'Про нас',
     },
-    {
-        path: 'testimonials',
-        name: 'Відгуки',
-        offset: -200
-    },
+    // {
+    //     path: 'testimonials',
+    //     name: 'Відгуки',
+    //     offset: -200
+    // },
 ]
 export const Nav = ({containerStyles, linkStyles}) => {
     return (
@@ -35,11 +35,7 @@ export const Nav = ({containerStyles, linkStyles}) => {
                 return (
                     <Link
                         key = {index}
-                        to = {link.path}
-                        spy = {true}
-                        smooth = {true}
-                        offset = {link.offset}
-                        duration = {500}
+                        href = {link.path}
                         className = {`${linkStyles}`}
                     >
                         {link.name}

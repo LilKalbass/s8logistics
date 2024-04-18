@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className = 'flex flex-col justify-between items-center xl:items-start text-center xl:flex-row'>
                     <div className = 'w-[300px] mb-8 xl:mb-0 flex justify-center'>
                         <Link href = '/'>
-                            <Image src = '/assets/Logo/Logo.png' alt = 'logo_img' width = {200} height = {66}/>
+                            <Image src = '/assets/Logo/Logo1.png' alt = 'logo_img' width = {200} height = {66}/>
                         </Link>
                     </div>
                     <div className = 'flex-1 grid grid-cols-1 xl:grid-cols-3 gap-[50px] mb-8 xl:mb-16'>

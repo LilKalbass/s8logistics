@@ -24,4 +24,13 @@
     h1, h2, h3 {
         @apply font-bold
     }
+    input {
+        @apply placeholder-green border-2 rounded-xl px-2 font-semibold py-0.5
+    }
+    textarea {
+        @apply border-2 rounded-xl p-2
+    }
+    ::placeholder {
+        @apply font-semibold
+    }
 }

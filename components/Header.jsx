@@ -7,6 +7,7 @@ import {PhoneCall} from "lucide-react"
 import {Nav} from "@/components/Nav";
 import {Button} from "@/components/ui/button";
 import {Link as ScrollLink} from 'react-scroll'
+import NavMobile from "@/components/NavMobile";
 
 const Header = () => {
     const [active, setActive] = useState(false);
@@ -24,15 +25,15 @@ const Header = () => {
 <header className = {`${active ? 'bg-secondary py-6 text-white' : 'bg-none py-10 shadow-lg'}
                             fixed top-0 w-full z-50 left-0 right-0 transition-all duration-200 rounded-b-3xl`}>
     <div className = 'container mx-auto'>
-        <div className = 'flex items-center justify-between'>
+        <div className = 'flex items-center justify-between '>
                 <Link href='/'>
                     <Image src = '/assets/Logo/Logo1.png' alt = 'logo_img' width={180} height={40}/>
                 </Link>
             <Nav containerStyles='hidden xl:flex gap-x-10 cursor-pointer'
                  linkStyles='capitalize text-lg hover:scale-110 hover:underline decoration-green decoration-[2px] underline-offset-4 hover:text-green'
             />
-            <div className = 'flex flex-row items-center cursor-pointer'>
-                <div className= 'md:border-2 border-green rounded-full p-2 flex items-center hover:scale-105 gap-x-2 xl:mr-5 mr-2 '>
+            <div className = 'flex flex-row items-center cursor-pointer gap-x-2'>
+                <div className= 'md:border-2 border-green rounded-full p-2 flex items-center hover:scale-105 gap-x-2'>
                     <a href={`tel:${+380663324759}`} className = 'hidden md:flex'>+3790123880924</a>
                     <a href={`tel:${+380663324759}`} className= ''><PhoneCall className = 'size-8 text-green'/> </a>
                 </div>
@@ -41,6 +42,7 @@ const Header = () => {
                         variant='default' size= 'sm'
                     >Зв'язатися</Button>
                 </ScrollLink>
+                <NavMobile containerStyles = 'xl:hidden' iconStyles = 'text-3xl text-white' linkStyles = ' text-xl uppercase'/>
             </div>
         </div>
     </div>

@@ -37,8 +37,8 @@ const Services = () => {
                     <p className= 'py-2'>
                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus consectetur eius eligendi exercitationem explicabo facilis fugiat ipsam, iusto molestias, nostrum numquam pariatur perferendis perspiciatis quia recusandae soluta tempore velit.</span>
                     </p>
-                    <Link href = '/' className = 'text-green flex justufy-center xl:justify-end items-center mb-8 hover:scale-105'>
-                        View all
+                    <Link href = '/services' className = 'text-green flex justufy-center xl:justify-end items-center mb-8 hover:scale-105 font-semibold'>
+                        Усі послуги
                         <ArrowRight className = 'text-3xl'/>
                     </Link>
                 </div>
