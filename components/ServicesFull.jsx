@@ -40,7 +40,7 @@ const services = [
 
 const ServicesFull = () => {
     return (
-        <section className = "min-h-[1150px] lg:pt-40 pt-36 lg:pb-24 mb-16 lg:mb-40">
+        <section className = "min-h-[1150px] lg:pt-40 pt-36  mb-16 lg:mb-40">
             <div className = "container mx-auto">
                 <div className = "relative flex flex-col lg:flex-row justify-center  items-center p-6">
                     <div className = "flex justify-center">

@@ -8,8 +8,9 @@ const ServiceList = () => {
     return (
         <section className= ''>
             <ServicesFull/>
-            <ContactForm/>
-
+            <div className='container mx-auto'>
+                <ContactForm/>
+            </div>
         </section>
     )
 }
