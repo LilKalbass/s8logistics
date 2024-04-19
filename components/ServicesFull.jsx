@@ -40,28 +40,20 @@ const services = [
 
 const ServicesFull = () => {
     return (
-        <section className = "min-h-[1150px] rounded-bl-[100%] rounded-tr-[10%] bg-no-repeat lg:pt-40 lg:pb-24 mb-16 lg:mb-40">
+        <section className = "min-h-[1150px] lg:pt-40 pt-36 lg:pb-24 mb-16 lg:mb-40">
             <div className = "container mx-auto">
-                <div className = "relative flex flex-col lg:flex-row justify-center lg:justify-start items-center pt-8 pb-16 lg:pb-24">
-                    <div className = "lg:max-w-[45%]">
-                        <h3 className = "h3 uppercase tracking-wide">Текст</h3>
-                        <h2 className = "h2 mb-6 text-black">Бла-Бла</h2>
+                <div className = "relative flex flex-col lg:flex-row justify-center  items-center p-6">
+                    <div className = "flex justify-center">
+                        <h3 className = "uppercase tracking-wide text-center">усі послуги<span className='text-green text-2xl'>:</span></h3>
                     </div>
                     <div className = "lg:absolute lg:right-4 lg:-top-36 ">
-                        {/*<Image src = {faqData.boyImg} width = {700} height = {500} alt = "q"/>*/}
+                        {/*<Image src = {} width = {700} height = {500} alt = "q"/>*/}
                     </div>
                 </div>
-                <div className = "grid grid-cols-1 lg:grid-cols-1 ">
+                <div className = "grid grid-cols-1  ">
                     {services.map((item, index) => {
                         return (
-                            <div className = 'grid grid-cols-3 py-4'>
-                                <div className = ''>
-                                    <Image src={item.img} alt='qwe' width={400} height={200}/>
-                                </div>
-                                <div className='relative grid col-span-2'>
-                                    <Accordion accordion = {item} key = {index}/>
-                                </div>
-                            </div>
+                                <Accordion accordion = {item} key = {index}/>
                         );
                     })}
                 </div>

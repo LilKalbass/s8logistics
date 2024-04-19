@@ -37,7 +37,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: 'url(/assets/HeroBg1.jpg)',
-        service: 'url(/assets/ServBg.png)',
+        service: 'url(/assets/ServBg2.png)',
         contactForm: 'url(/assets/PhoneCallBg.png)',
         footer: 'url(/assets/Footer2.png)',
       },
