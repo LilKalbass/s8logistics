@@ -42,7 +42,7 @@ const Services = () => {
                         <ArrowRight className = 'text-3xl'/>
                     </Link>
                 </div>
-                <div className= 'grid grid-cols-1 gap-x-[30px] md:grid-cols-3 md:gap-[15px] xl:grid-cols-4'>
+                <div className= 'grid grid-cols-1 gap-x-[30px] md:grid-cols-3 md:gap-[15px] xl:grid-cols-4 gap-y-4 xl:gap-y-0'>
                     {services.map((item, index) => {
                         return (
                             <div key={index} className = 'max-w-[270px] bg-white shadow-primary mx-auto xl:mx-0 group'>
