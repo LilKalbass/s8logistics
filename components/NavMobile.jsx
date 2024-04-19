@@ -42,13 +42,13 @@ const NavMobile = ({containerStyles, iconStyles, linkStyles}) => {
                 className = 'cursor-pointer outline-none'
                 onClick = {()  => setIsOpen(!isOpen)}
             >
-                <RiMenu2Line className = 'text-3xl text-green transition-all duration-200'/>
+                <RiMenu2Line className = 'text-3xl text-green transition-all duration-200 hover:scale-110'/>
             </div>
             <aside className = {`${isOpen ? 'right-0' : '-right-full'} bg-secondary fixed z-20 w-full p-10 top-0 bottom-0 transition-all duration-500`}
             >
                 <div className = 'flex flex-col items-center justify-between h-full pb-20'>
                     <div
-                        className = 'cursor-pointer text-4xl text-white absolute w-10 h-10 left-8 top-8 bg-green flex items-center justify-center'
+                        className = 'hover:scale-110 rounded-2xl cursor-pointer text-4xl text-white absolute w-10 h-10 left-8 top-8 bg-green flex items-center justify-center'
                         onClick = {() => setIsOpen(false)}
                     >
                         <IoCloseOutline/>

@@ -38,7 +38,7 @@ const Header = () => {
                     <a href={`tel:${+380663324759}`} className= ''><PhoneCall className = 'size-8 text-green'/> </a>
                 </div>
                 <ScrollLink to = 'reservation' smooth = {true}>
-                    <Button
+                    <Button className = 'hidden xl:flex'
                         variant='default' size= 'sm'
                     >Зв'язатися</Button>
                 </ScrollLink>

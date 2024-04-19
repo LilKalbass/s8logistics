@@ -2,16 +2,15 @@
 
 import React from 'react'
 import Link from 'next/link'
-import Services from "@/components/Services";
+import ServicesFull from "@/components/ServicesFull";
 const ServiceList = () => {
     return (
-        <div className= 'flex items-center justify-center mt-32 flex-col'>
-            <h1>Service Page</h1>
-            <Services/>
+        <section className= ''>
+            <ServicesFull/>
             <h2 className= 'mt-20'>
                 <Link href="/" className = 'underline'>Back to home</Link>
             </h2>
-        </div>
+        </section>
     )
 }
 export default ServiceList
