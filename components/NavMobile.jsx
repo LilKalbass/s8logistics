@@ -54,7 +54,7 @@ const NavMobile = ({containerStyles, iconStyles, linkStyles}) => {
                         <IoCloseOutline/>
                     </div>
                     <Link href='/'>
-                        <Image src = '/assets/Logo/Logo1.png' alt = 'logo_img' width={180} height={40}/>
+                        <Image src = '/assets/Logo/LogoH.png' alt = 'logo_img' width={180} height={40}/>
                     </Link>
                     <div className ='flex flex-col gap-y-8 text-green'>
                         {links.map((link, index) => {
