@@ -17,7 +17,7 @@ export default function Home() {
           <Hero/>
           <Services/>
           <ContactForm/>
-          <About/>
+          <About moreBut = 'rounded-3xl'/>
           <Contacts/>
           <Testimonials/>
           {/*<Footer/>*/}

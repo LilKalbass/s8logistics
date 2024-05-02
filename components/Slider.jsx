@@ -19,9 +19,9 @@ const Slider = ({clients}) => {
                 return (
                     <SwiperSlide key = {id}>
                         <div className = "flex flex-col justify-between items-center bg-secondary/10 h-[420px] rounded-2xl xl:px-[48px] px-4 py-9">
-                            <p className = "text-black font-light leading-[30px] text-[14px] xl:text-lg">{client.message}</p>
-                            <div className = "flex items-center gap-x-5 xl:flex-row flex-col justify-center">
-                                <Image src = {client.image} width = {60} height = {60} alt = "q"/>
+                            <p className = "text-black xl:font-light leading-[30px] xl:text-lg">{client.message}</p>
+                            <div className = "flex items-center gap-x-5 flex-col xl:flex-row justify-center">
+                                <Image src = {client.image} width = {80} height = {80} alt = "q" className='rounded-full'/>
                                 <span className = "font-semibold text-black text-center">{client.name}</span>
                             </div>
                         </div>

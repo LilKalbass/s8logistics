@@ -36,10 +36,10 @@ module.exports = {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
       },
       backgroundImage: {
-        hero: 'url(/assets/HeroBg1.jpg)',
-        service: 'url(/assets/ServBg2.png)',
+        hero: 'url(/assets/HeroBg.webp)',
+        service: 'url(/assets/ServBg.png)',
         contactForm: 'url(/assets/PhoneCallBg.png)',
-        footer: 'url(/assets/Footer2.png)',
+        footer: 'url(/assets/Footer.png)',
       },
       boxShadow: {
         primary: '40px 4px 40px 0px rgba(68, 68, 68, 0.25)'

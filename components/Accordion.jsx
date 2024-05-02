@@ -30,14 +30,14 @@ const Accordion = ({accordion}) => {
                         {isOpen ? ('') : (<motion.div  variants = {fadeIn('right', 0.6)}
                                                        initial = 'hidden'
                                                        whileInView = {'show'}
-                                                       viewport = {{once: false, amount: 0}}><HiArrowRight className='text-3xl hidden xl:flex'/></motion.div>)}
+                                                       viewport = {{once: false, amount: 0}}><HiArrowRight className='text-3xl hidden xl:flex transition-all'/></motion.div>)}
                         {isOpen ? (<motion.div variants = {fadeIn('down', 0.6)}
                                                initial = 'hidden'
                                                whileInView = {'show'}
-                                               viewport = {{once: false, amount: 0}}><HiArrowUp className='text-2xl xl:hidden'/></motion.div>) : (<motion.div variants = {fadeIn('down', 0.6)}
+                                               viewport = {{once: false, amount: 0}}><HiArrowUp className='text-2xl xl:hidden transition-all'/></motion.div>) : (<motion.div variants = {fadeIn('down', 0.6)}
                                                       initial = 'hidden'
                                                       whileInView = {'show'}
-                                                      viewport = {{once: false, amount: 0}}><HiArrowDown className='text-2xl xl:hidden'/></motion.div>)}
+                                                      viewport = {{once: false, amount: 0}}><HiArrowDown className='text-2xl xl:hidden transition-all'/></motion.div>)}
                     </div>
                 </div>
                 <motion.h3 variants = {fadeIn('right', 0.4)}

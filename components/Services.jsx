@@ -8,7 +8,7 @@ import {ArrowRight} from 'lucide-react'
 const services = [
     {
         img: '/assets/Services/TrackDev.png',
-        title: 'Автоперевезення',
+        title: 'Міждународні наземні перевезення',
         desc: 'blah-blah blah-blah blah-blah blah-blah blah-blah'
     },
     {
@@ -23,7 +23,7 @@ const services = [
     },
     {
         img: '/assets/Services/Mitnitsya.png',
-        title: 'Митне оформлення',
+        title: 'Митне оформлення вантажу',
         desc: 'blah-blah blah-blah blah-blah blah-blah blah-blah'
     }
 ]
@@ -34,8 +34,8 @@ const Services = () => {
             <div className = 'container mx-auto'>
                 <div className= 'max-w-[570px] mx-auto'>
                     <h2 className = 'mb-2 text-center'>Наші Послуги</h2>
-                    <p className= 'py-2'>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus consectetur eius eligendi exercitationem explicabo facilis fugiat ipsam, iusto molestias, nostrum numquam pariatur perferendis perspiciatis quia recusandae soluta tempore velit.</span>
+                    <p className= 'py-2 text-center'>
+                        <span>Компанія S8 Logistics є вашим надійним партнером у сфері логістики. Ми спеціалізуємося на міжнародних перевезеннях та митному оформленні, надаючи професійні послуги з уважністю до деталей. Наша команда забезпечує ефективність і надійність у кожному етапі процесу, гарантуючи задоволення потреб наших клієнтів.</span>
                     </p>
                     <Link href = '/services' className = 'text-green flex justufy-center xl:justify-end items-center mb-8 hover:scale-105 font-semibold'>
                         Усі послуги
@@ -47,14 +47,15 @@ const Services = () => {
                         return (
                             <div key={index} className = 'max-w-[270px] bg-white shadow-primary mx-auto xl:mx-0 group'>
                                 <div className = 'overflow-hidden'>
-                                    <Image src = {item.img} alt = 'qw' width = {300} height = {260}
-                                           className = 'group-hover:scale-125 transition-all duration-300'/>
+                                    <Link href='/services'>
+                                        <Image src = {item.img} alt = 'qw' width = {300} height = {260} className = 'group-hover:scale-125 transition-all duration-300'/>
+                                    </Link>
                                 </div>
                                 <div className = 'pt-[20px] pb-[28px] px-[30px]'>
-                                    <Link href = '/'>
-                                        <h3 className = 'text-black mb-[14px]'>{item.title}</h3>
+                                    <Link href = '/services'>
+                                        <h3 className = 'text-black mb-[14px] text-center'>{item.title}</h3>
                                     </Link>
-                                    <div className = 'text-md'>{item.desc}</div>
+                                    {/*<div className = 'text-md'>{item.desc}</div>*/}
                                 </div>
                             </div>
                         )

@@ -6,33 +6,33 @@ import {fadeIn} from "@/variants";
 
 const clients = [
     {
-        "message": "Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.",
-        "image": "/assets/avatar1.png",
+        "message": "Просто хочу сказати велике дякую S8 Logistics за доставку мого вантажу. Ви зробили все швидко і без надокучливих перешкод.",
+        "image": "/assets/Testimonials/avatar1.jpg",
         "name": "Камалія Шаїзх"
     },
     {
-        "message": "From most barricade or traffic control companies located in the phone book.",
-        "image": "/assets/avatar1.png",
+        "message": "Мені все сподобалось, зробили все, що треба, без зайвих слів.",
+        "image": "/assets/Testimonials/avatar2.jpg",
         "name": "Івана Купала"
     },
     {
-        "message": "An A-Line, or access restriction deed is a property right that has been obtained by CDOT for the sole purpose of prohibiting direct",
-        "image": "/assets/avatar1.png",
+        "message": "S8 Logistics - надійна компанія з логістики. Їхні послуги простою зрозумілі та дійсно ефективні.",
+        "image": "/assets/Testimonials/avatar3.jpg",
         "name": "Дан Балан"
     },
     {
-        "message": "Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.",
-        "image": "/assets/avatar1.png",
+        "message": "Доставка пройшла гладко. Ніяких проблем, просто швидкий і професійний сервіс.",
+        "image": "/assets/Testimonials/avatar4.png",
         "name": "Петро Іващук"
     },
     {
-        "message": "From most barricade or traffic control companies located in the phone book.",
-        "image": "/assets/avatar1.png",
+        "message": "Моя перша спроба працювати з логістичною компанією була дуже приємною завдяки S8 Logistics. Вони все зробили добре.",
+        "image": "/assets/Testimonials/avatar5.jpg",
         "name": "Данило Кіт"
     },
     {
-        "message": "An A-Line, or access restriction deed is a property right that has been obtained by CDOT for the sole purpose of prohibiting direct",
-        "image": "/assets/avatar1.png",
+        "message": "Просто хочу сказати велике спасибі S8 Logistics за їхню роботу. Все було добре організовано і ефективно.",
+        "image": "/assets/Testimonials/avatar6.jpg",
         "name": "Аліса Шмаркля"
     }
 ]

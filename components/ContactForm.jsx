@@ -42,7 +42,7 @@ const ContactForm = () => {
                     <div className = "flex flex-1 flex-col justify-center pl-8 lg:pl-16 lg:mb-60">
                         <h2 className = "h2 mb-2 lg:mb-8 text-center xl:text-left">Заповнюй форму<span className='text-green'>,</span> <br/>Залишай заявку</h2>
                         <p className = "mb-7 lg:mb-0 text-center xl:text-left">
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequuntur corporis cupiditate, deserunt dicta ducimus eos est exercitationem iure numquam officia possimus praesentium quibusdam rerum sapiente sunt suscipit, voluptate?</span>
+                            <span>Компанія S8 Logistics є вашим надійним партнером у сфері логістики. Ми спеціалізуємося на міжнародних перевезеннях та митному оформленні, надаючи професійні послуги з уважністю до деталей. Наша команда забезпечує ефективність і надійність у кожному етапі процесу, гарантуючи задоволення потреб наших клієнтів.</span>
                         </p>
                     </div>
                     <form

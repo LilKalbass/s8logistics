@@ -11,30 +11,22 @@ const services = [
     {
         img: '/assets/Services/TrackDev1.png',
         title: 'Автоперевезення',
-        desc: 'blah-blah blah-blah blah-blah blah-blah blah-blah',
-        fullTitle: 'Бла блабала',
-        fullDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, cumque dolorum expedita iste, iusto, laboriosam laudantium nemo odio quia ratione soluta tempore ullam. Accusamus aliquidlaboriosam nesciunt obcaecati quam sunt Aut iste maiores molestiae nam quidem rerum! Blanditiis cumque debitis dolorem ducimus eos error eumexercitationem illum magnam molestias nam necessitatibus nostrum, odio optio perferendis praesentium quidem suntvoluptas voluptatum.'
+        fullDesc: 'Ми допомагаємо перевозити ваші товари в інші країни, використовуючи автомобілі та поїзди. Ваш вантаж буде безпечно доставлений на відстань, яку ви оберете.'
     },
     {
         img: '/assets/Services/AirDev1.png',
         title: 'Авіаперевезення',
-        desc: 'blah-blah blah-blah blah-blah blah-blah blah-blah',
-        fullTitle: 'Бла блабала',
-        fullDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, cumque dolorum expedita iste, iusto, laboriosam laudantium nemo odio quia ratione soluta tempore ullam. Accusamus aliquidlaboriosam nesciunt obcaecati quam sunt Aut iste maiores molestiae nam quidem rerum! Blanditiis cumque debitis dolorem ducimus eos error eumexercitationem illum magnam molestias nam necessitatibus nostrum, odio optio perferendis praesentium quidem suntvoluptas voluptatum.'
+        fullDesc: 'Ми забезпечимо швидку та ефективну доставку вашого вантажу за допомогою літаків. Навіть далекі відстані не будуть перешкодою для доставки вашого товару.'
     },
     {
         img: '/assets/Services/ShipDev1.png',
         title: 'Морські Перевезення',
-        desc: 'blah-blah blah-blah blah-blah blah-blah blah-blah',
-        fullTitle: 'Бла блабала',
-        fullDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, cumque dolorum expedita iste, iusto, laboriosam laudantium nemo odio quia ratione soluta tempore ullam. Accusamus aliquidlaboriosam nesciunt obcaecati quam sunt Aut iste maiores molestiae nam quidem rerum! Blanditiis cumque debitis dolorem ducimus eos error eumexercitationem illum magnam molestias nam necessitatibus nostrum, odio optio perferendis praesentium quidem suntvoluptas voluptatum.'
+        fullDesc: 'Якщо вам потрібно перевезти великі обсяги вантажу, ми забезпечимо його безпечну доставку морем. Наші послуги морських перевезень гарантують ефективність та надійність.'
     },
     {
         img: '/assets/Services/Mitnitsya1.png',
-        title: 'Митне оформлення',
-        desc: 'blah-blah blah-blah blah-blah blah-blah blah-blah',
-        fullTitle: 'Бла блабала',
-        fullDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, cumque dolorum expedita iste, iusto, laboriosam laudantium nemo odio quia ratione soluta tempore ullam. Accusamus aliquidlaboriosam nesciunt obcaecati quam sunt Aut iste maiores molestiae nam quidem rerum! Blanditiis cumque debitis dolorem ducimus eos error eumexercitationem illum magnam molestias nam necessitatibus nostrum, odio optio perferendis praesentium quidem suntvoluptas voluptatum.'
+        title: 'Митне оформлення:',
+        fullDesc: 'Ми вирішимо всі питання, пов\'язані з митним оформленням вашого вантажу. Вам не потрібно хвилюватися про складні формальності - ми все зробимо за вас, забезпечивши швидкий та безперервний рух вашого товару.'
     }
 ]
 
@@ -50,7 +42,7 @@ const ServicesFull = () => {
                         {/*<Image src = {} width = {700} height = {500} alt = "q"/>*/}
                     </div>
                 </div>
-                <div className = "grid grid-cols-1  ">
+                <div className = "grid grid-cols-1 transition-all ">
                     {services.map((item, index) => {
                         return (
                                 <Accordion accordion = {item} key = {index}/>

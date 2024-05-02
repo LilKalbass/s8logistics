@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
                     <div className = 'flex-1 grid grid-cols-1 xl:grid-cols-3 gap-[50px] mb-8 xl:mb-16'>
                         <div>
-                            <h4 className = 'font-semibold mb-5'>FAQ :</h4>
+                            <h4 className = 'font-semibold mb-5'>Щось :</h4>
                             <ul className = 'flex flex-col gap-y-6 text-sm'>
                                 <li>
                                     <Link href = '/'>
@@ -50,26 +50,26 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h4 className = 'font-semibold mb-5'>Услугі(напркилакд) :</h4>
+                            <h4 className = 'font-semibold mb-4'>Послуги :</h4>
                             <ul className = 'flex flex-col gap-y-6 text-sm'>
                                 <li>
-                                    <Link href = '/'>
-                                        ЙЦВТОЦРУЛДАУЦДЖЄЮЦдьульуло
+                                    <Link href = '/services'>
+                                        Міждународні наземні перевезення
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href = '/'>
-                                        ЙУВДЖйлцубацацсу
+                                    <Link href = '/services'>
+                                        Авіаперевезення
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href = '/'>
-                                        IDK
+                                    <Link href = '/services'>
+                                        Митне оформлення вантажу
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href = '/'>
-                                        Whatever
+                                    <Link href = '/services'>
+                                        Морські перевезення
                                     </Link>
                                 </li>
                             </ul>
