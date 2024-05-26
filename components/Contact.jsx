@@ -56,7 +56,7 @@ const Contact = () => {
                     <div className= 'xl:py-4 py-2 flex items-center'>
                         <AtSign className = 'size-[44px] text-green mr-1' strokeWidth={2.25}/>
                         <h3 className = 'text-secondary font-bold cursor-default'>Пошта<span className = 'text-green'>:</span></h3>
-                        <p className= 'text-[18px] px-2 mt-0.5 text-grey'>sales@s8logistics.com.ua<span className = 'text-green'>.</span>com</p>
+                        <p className= 'text-[18px] px-2 mt-0.5 text-grey'>s8logist@gmail.com<span className = 'text-green'>.</span>com</p>
                     </div>
                     <div className= 'xl:py-4 py-2 flex items-center'>
                         <MapPinned className= 'size-[44px] text-green mr-1' strokeWidth={2.25}/>

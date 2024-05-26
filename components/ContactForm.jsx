@@ -23,8 +23,8 @@ const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_9kre3ur', 'template_87l8sk6',
-            form.current, 'ZQx1FI4l3teXxInzT')
+        emailjs.sendForm('service_5qilufs', 'template_4z60hbw',
+            form.current, '5FUOmk_rYhXnX_p8d')
             .then((result) => {
                 setEmailMesg('Емейл відправленно')
                 setEmailColor('green')

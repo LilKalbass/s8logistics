@@ -12,10 +12,9 @@ const Hero = () => {
             <div className= 'container mx-auto'>
                 <div className='flex items-center xl:h-[960px]'>
                     <div className='w-full xl:max-w-[560px] text-center xl:text-left'>
-                        <h1 className='text-secondary xl:mb-0 '><span className= 'text-green'>Перевозки,</span><br/>ще не були такими легкими</h1>
+                        <h1 className='text-secondary xl:mb-0 '><span className= 'text-green'>З нами,</span><br/>межі не існують</h1>
                         <p className = 'text-grey font-semibold xl:mb-10 mb-8'>
-                            Авіа та Авто доставка, морськи перевезення, доставимо зі Сполучених Штатів Америки, Європи, Турції та Китаю.
-                            Допомогаємо з митним оформленням, FLC/TLC <br/>Дотримуємося Максимально продуманого підходу до кожного клієнта, щоб швидко та надійно надавати послуги з митного оформлення, логістики
+                            Логістична компанія C8 Логістікс - ваш надійний партнер у доставці вантажів з-за кордону прямо до серця України.<br/>Ми впевнено перетинаємо межі, забезпечуючи швидку, надійну та ефективну логістику. З нами ваші можливості безмежні!
                         </p>
                         <ScrollLink to = 'reservation' smooth = {true}>
                             <Button
