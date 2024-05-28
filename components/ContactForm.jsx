@@ -54,7 +54,7 @@ const ContactForm = () => {
                             className = "text-green"
                             placeholder = "Ім'я/Компанія"
                             type = "text"
-                            name = "_firstname"
+                            name = "_name"
                             required
                         />
                         <input
@@ -67,8 +67,8 @@ const ContactForm = () => {
                         <input
                             className = "text-green"
                             placeholder = "Телефон"
-                            type = "text"
-                            name= "_lastname"
+                            type = "tel"
+                            name= "_phone"
                             required
                         />
                         <input

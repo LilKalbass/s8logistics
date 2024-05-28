@@ -23,32 +23,7 @@ const Footer = () => {
                             <Image src = '/assets/Logo/LogoF.png' alt = 'logo_img' width = {200} height = {66}/>
                         </Link>
                     </div>
-                    <div className = 'flex-1 grid grid-cols-1 xl:grid-cols-3 gap-[50px] mb-8 xl:mb-16'>
-                        <div>
-                            <h4 className = 'font-semibold mb-5'>Щось :</h4>
-                            <ul className = 'flex flex-col gap-y-6 text-sm'>
-                                <li>
-                                    <Link href = '/'>
-                                        Бла-бла
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href = '/'>
-                                        Бла-бла Бла-бла
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href = '/'>
-                                        Бла-бла Бла-бла Бла-бла
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href = '/'>
-                                        Бла-бла Бла-бла Бла-бла Бла-бла Бла-бла
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
+                    <div className = 'flex-1 grid  grid-cols-1 xl:grid-cols-3 gap-[50px] mb-8 xl:mb-16'>
                         <div>
                             <h4 className = 'font-semibold mb-4'>Послуги :</h4>
                             <ul className = 'flex flex-col gap-y-6 text-sm'>
@@ -74,7 +49,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        <div className=''>
                             <h4 className = 'font-semibold mb-5'>Соц.мережі :</h4>
                             <ul className = 'flex flex-col gap-y-6 text-sm'>
                                 <li>
@@ -90,11 +65,6 @@ const Footer = () => {
                                 <li>
                                     <Link href = '/'>
                                         TripAdvisor
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href = '/'>
-                                        Twitter(ak dead)
                                     </Link>
                                 </li>
                             </ul>
