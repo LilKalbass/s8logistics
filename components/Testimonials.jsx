@@ -8,17 +8,17 @@ const clients = [
     {
         "message": "Просто хочу сказати велике дякую S8 Logistics за доставку мого вантажу. Ви зробили все швидко і без надокучливих перешкод.",
         "image": "/assets/Testimonials/avatar1.jpg",
-        "name": "Камалія Шаїзх"
+        "name": "Камалія Шес"
     },
     {
         "message": "Мені все сподобалось, зробили все, що треба, без зайвих слів.",
         "image": "/assets/Testimonials/avatar2.jpg",
-        "name": "Івана Купала"
+        "name": "Іван Філімонов"
     },
     {
         "message": "S8 Logistics - надійна компанія з логістики. Їхні послуги простою зрозумілі та дійсно ефективні.",
         "image": "/assets/Testimonials/avatar3.jpg",
-        "name": "Дан Балан"
+        "name": "Ден Патрік"
     },
     {
         "message": "Доставка пройшла гладко. Ніяких проблем, просто швидкий і професійний сервіс.",
@@ -33,7 +33,7 @@ const clients = [
     {
         "message": "Просто хочу сказати велике спасибі S8 Logistics за їхню роботу. Все було добре організовано і ефективно.",
         "image": "/assets/Testimonials/avatar6.jpg",
-        "name": "Аліса Шмаркля"
+        "name": "Аліса Порденко"
     }
 ]
 const Testimonials = () => {
@@ -44,7 +44,7 @@ const Testimonials = () => {
                                         initial = 'hidden'
                                         whileInView = {'show'}
                                         viewport = {{once: false, amount: 0.2}}
-                            className = "flex flex-col lg:flex-row">
+                            className = "flex flex-col lg:flex-row justify-between">
                     <motion.div variants = {fadeIn('up', 0.2)}
                                 initial = 'hidden'
                                 whileInView = {'show'}

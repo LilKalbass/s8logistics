@@ -8,7 +8,7 @@ import {ArrowRight} from 'lucide-react'
 const services = [
     {
         img: '/assets/Services/TrackDev.png',
-        title: 'Міждународні наземні перевезення',
+        title: 'Міжнародні наземні перевезення',
         desc: 'blah-blah blah-blah blah-blah blah-blah blah-blah'
     },
     {

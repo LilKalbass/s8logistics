@@ -62,6 +62,7 @@ const ContactForm = () => {
                             placeholder = "@Email"
                             type = "email"
                             name = "_email"
+                            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                             required
                         />
                         <input
@@ -69,6 +70,9 @@ const ContactForm = () => {
                             placeholder = "Телефон"
                             type = "tel"
                             name= "_phone"
+                            pattern="[\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                            minLength={10}
+                            maxLength={13}
                             required
                         />
                         <input
