@@ -6,6 +6,8 @@ import Link from 'next/link'
 
 import {motion} from "framer-motion";
 import {fadeIn} from "@/variants";
+import {ArrowUp} from "lucide-react";
+import {PiArrowUpBold} from "react-icons/pi";
 
 const Footer = () => {
     return (
@@ -18,7 +20,12 @@ const Footer = () => {
         >
             <div className = 'container mx-auto'>
                 <div className = 'flex flex-col justify-between items-center xl:items-start text-center xl:flex-row'>
-                    <div className = 'w-[300px] mb-8 xl:mb-0 flex justify-center'>
+                    <div className = 'w-[300px] mb-8 xl:mb-0 flex items-center'>
+                        <div className= 'items-center justify-center'>
+                            <Link href= '/'>
+                                <PiArrowUpBold className='text-[36px] text-black'/>
+                            </Link>
+                        </div>
                         <Link href = '/'>
                             <Image src = '/assets/Logo/LogoF.png' alt = 'logo_img' width = {200} height = {66}/>
                         </Link>
