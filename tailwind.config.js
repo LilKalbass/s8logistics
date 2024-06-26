@@ -15,6 +15,7 @@ module.exports = {
       padding: "15px",
     },
     screens: {
+      ph: '360px',
       sm: '640px',
       md: '768px',
       lg: '960px',
@@ -36,9 +37,11 @@ module.exports = {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
       },
       backgroundImage: {
-        hero: 'url(/assets/1.jpg)',
+        hero: 'url(/assets/BgHeroDesk.webp)',
+        heroph: 'url(/assets/BgHeroPhone.webp)',
         service: 'url(/assets/ServBg.png)',
-        contactForm: 'url(/assets/PhoneCallBg.png)',
+        contactForm: 'url(/assets/PhoneCallBg.webp)',
+        contactFormDesk: 'url(/assets/PhoneCallBgDesk.webp)',
         footer: 'url(/assets/Footer.png)',
       },
       boxShadow: {

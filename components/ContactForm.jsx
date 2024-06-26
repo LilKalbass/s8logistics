@@ -36,18 +36,18 @@ const ContactForm = () => {
     };
 
     return (
-        <section className = "lg:pt-40 py-10 bg-contactForm bg-no-repeat xl:bg-contain" id='reservation'>
+        <section className = "lg:pt-40 py-10 xl:bg-contactFormDesk bg-left ph:bg-contactForm bg-no-repeat  ph:bg-cover md:bg-contain pt-" id='reservation'>
             <div className = "container mx-auto">
-                <div className = "flex flex-col lg:flex-row lg:gap-x-20 bg-contact bg-no-repeat bg-cover min-h-[600px]">
-                    <div className = "flex flex-1 flex-col justify-center pl-8 lg:pl-16 lg:mb-60">
-                        <h2 className = "h2 mb-2 lg:mb-8 text-center xl:text-left">Заповнюй форму<span className='text-green'>,</span> <br/>Залишай заявку</h2>
-                        <p className = "mb-7 lg:mb-0 text-center xl:text-left">
+                <div className = "flex flex-col lg:flex-row lg:gap-x-20 ph:gap-x-2 bg-contact bg-no-repeat bg-cover ">
+                    <div className = "flex flex-1 flex-col  ph:mb-0 ph:pl-0 pl-8 lg:pl-16 lg:mb-60">
+                        <h2 className = "h2 ph:mb-2 lg:mb-8 text-center xl:text-left">Заповнюй форму<span className='text-green'>,</span> <br/>Залишай заявку</h2>
+                        <p className = "mb-7 lg:mb-0 text-center text-black subpixel-antialiased drop-shadow-2xl text-[16px] xl:text-left">
                             <span>Компанія S8 Logistics є вашим надійним партнером у сфері логістики. Ми спеціалізуємося на міжнародних перевезеннях та митному оформленні, надаючи професійні послуги з уважністю до деталей. Наша команда забезпечує ефективність і надійність у кожному етапі процесу, гарантуючи задоволення потреб наших клієнтів.</span>
                         </p>
                     </div>
                     <form
                         className = "flex flex-1 flex-col gap-y-5 bg-white shadow-primary rounded-[20px]
-                p-5 lg:p-10 max-h-[600px] lg:-mt-20"
+                p-5 lg:p-10 lg:-mt-20 ph:mt-12"
                         ref={form}
                         onSubmit={(e) => sendEmail(e)}>
                         <input

@@ -12,13 +12,15 @@ import dynamic from 'next/dynamic'
 const Contacts = dynamic(() => import("@/components/Contact"), { ssr: false });
 export default function Home() {
   return (
-      <main className = 'w-full max-w-[1440px] bg-white mx-auto overflow-hidden'>
+      <main className = 'w-full  bg-white mx-auto overflow-hidden'>
           {/*<Header/>*/}
           <Hero/>
-          <Services/>
-          <ContactForm/>
-          <About moreBut = 'rounded-3xl'/>
-          <Contacts/>
+          <div className='max-w-[1400px] 1container mx-auto p-0'>
+              <Services/>
+              <ContactForm/>
+              <About moreBut = 'rounded-3xl'/>
+              <Contacts/>
+          </div>
           <Testimonials/>
           {/*<Footer/>*/}
       </main>

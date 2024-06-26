@@ -21,10 +21,10 @@ const Footer = () => {
             className = 'bg-footer bg-cover bg-no-repeat text-white pt-16 w-full transition-all duration-200 rounded-t-3xl' //absolute left-0 right-0
         >
             <div className = 'container mx-auto'>
+
                 <div className = 'flex flex-col justify-between items-center xl:items-start text-center xl:flex-row'>
                     <div className = 'w-[300px] mb-8 xl:mb-0 flex items-center justify-center'>
                         <Link href = '#home' className='flex items-center hover:scale-110 transition-all'>
-                            <PiArrowUpBold className='text-[36px] text-black  transition-all mb-1'/>
                             <Image src = '/assets/Logo/LogoF.png' alt = 'logo_img' width = {200} height = {66}/>
                         </Link>
                     </div>
@@ -76,6 +76,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <Link href = '#home' className='flex items-center  transition-all'>
+                    <PiArrowUpBold className='text-[36px] text-black  transition-all  absolute z-50 left-10 hover:scale-125'/>
+                </Link>
                 <div className = 'border-t py-4 border-white/10'>
                     <p className = 'text-white/60 text-center text-sm'>Copyright &copy; S8 Logistics 2024</p>
                 </div>

@@ -30,7 +30,7 @@ const services = [
 
 const Services = () => {
     return (
-        <section className = 'relative py-4 xl:py-24 bg-service bg-no-repeat' id = 'services'>
+        <section className = 'relative py-4 xl:py-24 ' id = 'services'>
             <div className = 'container mx-auto'>
                 <div className= 'max-w-[570px] mx-auto'>
                     <h2 className = 'mb-2 text-center'>Наші Послуги</h2>

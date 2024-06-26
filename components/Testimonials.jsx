@@ -8,32 +8,38 @@ const clients = [
     {
         "message": "Просто хочу сказати велике дякую S8 Logistics за доставку мого вантажу. Ви зробили все швидко і без надокучливих перешкод.",
         "image": "/assets/Testimonials/avatar1.jpg",
-        "name": "Камалія Шес"
+        "name": "Камалія",
+        "surname": 'Шес'
     },
     {
         "message": "Мені все сподобалось, зробили все, що треба, без зайвих слів.",
         "image": "/assets/Testimonials/avatar2.jpg",
-        "name": "Іван Філімонов"
+        "name": "Іван",
+        "surname": 'Філімонов'
     },
     {
         "message": "S8 Logistics - надійна компанія з логістики. Їхні послуги простою зрозумілі та дійсно ефективні.",
         "image": "/assets/Testimonials/avatar3.jpg",
-        "name": "Ден Патрік"
+        "name": "Ден",
+        "surname": 'Патрік'
     },
     {
         "message": "Доставка пройшла гладко. Ніяких проблем, просто швидкий і професійний сервіс.",
         "image": "/assets/Testimonials/avatar4.png",
-        "name": "Петро Іващук"
+        "name": "Петро",
+        "surname": 'Іващук'
     },
     {
         "message": "Моя перша спроба працювати з логістичною компанією була дуже приємною завдяки S8 Logistics. Вони все зробили добре.",
         "image": "/assets/Testimonials/avatar5.jpg",
-        "name": "Данило Кіт"
+        "name": 'Данило',
+        "surname": 'Кіт'
     },
     {
         "message": "Просто хочу сказати велике спасибі S8 Logistics за їхню роботу. Все було добре організовано і ефективно.",
         "image": "/assets/Testimonials/avatar6.jpg",
-        "name": "Аліса Порденко"
+        "name": "Аліса",
+        "surname": 'Порденко'
     }
 ]
 const Testimonials = () => {

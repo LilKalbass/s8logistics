@@ -34,7 +34,7 @@ const Header = () => {
             />
             <div className = 'flex flex-row items-center cursor-pointer gap-x-2'>
                 <div className= 'md:border-2 border-green rounded-full p-2 flex items-center hover:scale-105 gap-x-2 transition-all'>
-                    <a href={`tel:${+380980248994}`} className = 'hidden md:flex'>+(098)-024-89-94</a>
+                    <a href={`tel:${+380980248994}`} className = 'hidden md:flex'>+380-024-89-94</a>
                     <a href={`tel:${+380980248994}`} className= ''><PhoneCall className = 'size-8 text-green'/> </a>
                 </div>
                 <ScrollLink to = 'reservation' smooth = {true}>

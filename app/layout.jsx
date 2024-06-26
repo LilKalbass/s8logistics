@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <div>
         <Header/>
         {children}
-          <div className='w-full max-w-[1440px] bg-white mx-auto overflow-hidden'><Footer/></div>
+          <div className='w-full bg-white mx-auto overflow-hidden'><Footer/></div>
       </div>
       </body>
     </html>

@@ -17,7 +17,7 @@ const About = ({moreBut}) => {
                 viewport = {{once: false, amount: 0.2}}
                 className = 'xl:pl-[98px] flex flex-col text-center items-center xl:mb-44'
             >
-                <h1 className = 'mb-9 text-black'>Про <span className = 'text-green'>S</span><span className = 'text-secondary'>8</span> Logistics</h1>
+                <h1 className = 'mb-9 text-black'>Про <span className = 'text-green'>S</span><span className = 'text-black'>8</span> Logistics</h1>
                 <p className = 'mb-4'>
                     Компанія S8 Logistics є вашим надійним партнером у сфері логістики.
                 </p>
