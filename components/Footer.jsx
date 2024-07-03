@@ -80,7 +80,7 @@ const Footer = () => {
                     <PiArrowUpBold className='text-[36px] text-black  transition-all  absolute z-50 left-10 hover:scale-125'/>
                 </Link>
                 <div className = 'border-t py-4 border-white/10'>
-                    <p className = 'text-white/60 text-center text-sm'>Copyright &copy; S8 Logistics 2024</p>
+                    <p className = 'text-white/60 text-center text-sm'>Всі права захищені &copy; S8 Logistics 2024</p>
                 </div>
             </div>
         </motion.footer>

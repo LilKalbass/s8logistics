@@ -51,7 +51,7 @@ const Contact = () => {
                     <div  className= 'xl:py-4 py-2 flex items-center'>
                         <a href={`tel:${+380980248994}`}><PhoneOutgoing  className = 'size-[44px] text-green mr-1' strokeWidth={2.25}/></a>
                         <h3 className = 'text-secondary font-bold cursor-default'>Телефон<span className = 'text-green'>:</span></h3>
-                        <a href={`tel:${+380980248994}`} className = 'text-[18px] px-2 mt-0.5 text-grey'>+380-024-89-94</a>
+                        <a href={`tel:${+380980248994}`} className = 'text-[18px] px-2 mt-0.5 text-grey'>+38-098-024-89-94</a>
                     </div>
                     <div className= 'xl:py-4 py-2 flex items-center'>
                         <AtSign className = 'size-[44px] text-green mr-1' strokeWidth={2.25}/>
